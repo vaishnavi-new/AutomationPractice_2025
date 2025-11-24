@@ -84,8 +84,6 @@ public static void main(String[] args)
 	mainOrder=cloneArray;
 	System.out.println("*************************Printing an mainOrder Array using by for for loop :  Find the smallest and largest ***************************");
 	int largestOne=mainOrder[0],smallestOne=mainOrder[0];
-	System.out.println("Largest one : "+largestOne);
-	System.out.println("Smallest one : "+smallestOne);
 	for(i=0;i<mainOrder.length;i++)
 	{
  	if(mainOrder[i]>largestOne)
