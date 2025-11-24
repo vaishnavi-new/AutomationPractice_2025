@@ -35,7 +35,7 @@ public static void main(String[] args)
 	// Array not growable : For example we have 8 elements in the given Array. But I need to update the 9th element as 8th index as below
 	//givenArr[8]="Mahilan";
 	// I was getting this error 
-	/*	Size of Array : 8
+	/*	Size of Array : 8 - java.lang.ArrayIndexOutOfBoundsException
 	Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
 		at InterviewJava.Array.ArrayIntro.main(ArrayIntro.java:18) */
 	
