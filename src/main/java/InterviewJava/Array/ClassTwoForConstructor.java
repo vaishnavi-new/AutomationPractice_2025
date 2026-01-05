@@ -14,8 +14,10 @@ public class ClassTwoForConstructor extends ConstructorLearning
 	public static void main(String[] args)
 	{
 		ClassTwoForConstructor consLearning=new ClassTwoForConstructor(45,"Sanjay","IBM");
-	
+		ClassTwoForConstructor consLearning2=new ClassTwoForConstructor(35,"Vaishnavi","IBM");
+
 		consLearning.display();
+		consLearning2.display();
 
 	}
 }
