@@ -18,8 +18,7 @@ public class ReadDataFromDb
 		Connection con;
 		try 
 		{
-			 con= DriverManager.getConnection("jdbc:mysql://localhost:3306/vaishnavipractice","root", "Muruga@1994");
-			 									
+			 con= DriverManager.getConnection("jdbc:mysql://localhost:3306/vaishnavipractice","root", "Muruga@1994");								
 		}
 		catch (SQLException e)
 			{
@@ -51,7 +50,6 @@ public class ReadDataFromDb
 		}
 		catch (SQLException e)
 			{
-
 			throw new IOException("SQL not found");
 			}
 		Statement st=con.createStatement();
